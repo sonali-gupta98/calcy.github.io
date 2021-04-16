@@ -1,0 +1,52 @@
+html{
+    font-size: 62.5%;
+    /*font-size: 10px;
+    font-size: 1rem;*/
+}
+h1{
+    font-size: 3rem;
+}
+.container{
+    text-align: center;
+    margin-top: 2.3rem;
+    
+}
+table{
+    margin: auto;
+}
+input{
+    border-radius: 2.1rem;
+    border: .5rem solid rgba(116, 3, 106, 0.253);
+    font-size: 3.4rem;
+    
+}
+button{
+    border-radius: 2.0rem;
+    font-size: 3.6rem;
+    background: #be96e4;
+    width: 10.2rem;
+    height: 6.4rem;
+}
+.calculator{
+    border: .4rem solid black;
+    background-color: #bdd8e8;
+    padding:2.2rem;
+    border-radius: 5.3rem;
+    display: inline-block;  
+}
+@media(max-width:998px){
+    html{
+        font-size: 55%;
+    }
+}
+@media(max-width:768px){
+    html{
+        font-size: 45%;
+    }
+    button{
+        height: 9rem;
+    }
+    input{
+        height: 7rem;
+    }
+}
